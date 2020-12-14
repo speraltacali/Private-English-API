@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PE.Service.Base/1.0.0": {
+        "runtime": {
+          "PE.Service.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PE.Service.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\bin\Debug\netcoreapp3.1\PE.IService.deps.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\bin\Debug\netcoreapp3.1\PE.IService.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\bin\Debug\netcoreapp3.1\PE.IService.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\bin\Debug\netcoreapp3.1\PE.Service.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\bin\Debug\netcoreapp3.1\PE.Service.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csprojAssemblyReference.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.AssemblyInfo.cs
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csproj.CoreCompileInputs.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csproj.CopyComplete
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.pdb

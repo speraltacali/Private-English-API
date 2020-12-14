@@ -1,0 +1,15 @@
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.csprojAssemblyReference.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.AssemblyInfo.cs
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Entity.deps.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Entity.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Entity.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.csproj.CopyComplete
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Entity.runtimeconfig.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\bin\Debug\netcoreapp3.1\PE.Domain.Entity.runtimeconfig.dev.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.genruntimeconfig.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Entity\obj\Debug\netcoreapp3.1\PE.Domain.Entity.csproj.CoreCompileInputs.cache

@@ -1,0 +1,15 @@
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Repository.Base.deps.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Repository.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Repository.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csprojAssemblyReference.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.AssemblyInfo.cs
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csproj.CopyComplete
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Repository.Base.runtimeconfig.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Repository.Base.runtimeconfig.dev.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.genruntimeconfig.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csproj.CoreCompileInputs.cache

@@ -1,0 +1,12 @@
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.deps.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.csprojAssemblyReference.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.AssemblyInfoInputs.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.AssemblyInfo.cs
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.dll
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.pdb
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.runtimeconfig.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.runtimeconfig.dev.json
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.genruntimeconfig.cache
+C:\Users\santi\source\repos\PrivateEnglish\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.csproj.CoreCompileInputs.cache
