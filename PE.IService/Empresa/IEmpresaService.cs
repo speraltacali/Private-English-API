@@ -18,7 +18,7 @@ namespace PE.IService.Empresa
 
         IEnumerable<EmpresaDto> GetAll();
 
-        IEnumerable<EmpresaDto> GetByFilter();
+        IEnumerable<EmpresaDto> GetByFilter(string query);
 
         IEnumerable<EmpresaDto> GetById(long id);
 

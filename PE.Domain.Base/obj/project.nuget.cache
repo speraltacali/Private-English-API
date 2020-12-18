@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fn/ZJ+pmPeTZBG4cgwUK3WVIZbu6bnejuHDpDfB5xmitUUYcHzOZ7Dhpsep4jC2omGXueIIGI2sdgADps66nmA==",
+  "dgSpecHash": "jyfsg2pujsMPU41/9worrdVBg/KpZO/Dqt2Q6PDNZoTub9H7tq9OCbWRnI3GX17ZhtMcY2Q0J3WgK4z9uB2Svw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
+  "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

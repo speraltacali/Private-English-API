@@ -5868,11 +5868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
       "projectName": "PE.WebAPI",
-      "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
+      "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
       "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5893,11 +5893,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.IService\\PE.IService.csproj": {
-              "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.IService\\PE.IService.csproj"
+            "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.IService\\PE.IService.csproj": {
+              "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.IService\\PE.IService.csproj"
             },
-            "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service\\PE.Service.csproj": {
-              "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service\\PE.Service.csproj"
+            "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service\\PE.Service.csproj": {
+              "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service\\PE.Service.csproj"
             }
           }
         }

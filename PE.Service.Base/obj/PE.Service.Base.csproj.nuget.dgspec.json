@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {}
+    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
         "projectName": "PE.Service.Base",
-        "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Service.Base\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Service.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

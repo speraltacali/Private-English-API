@@ -41,13 +41,23 @@ namespace PE.Service.Empresa
             return _empresaRepository.GetAll()
                 .Select(x => new EmpresaDto
                 {
-
+                    Id = x.Id,
+                    Nombre = x.Nombre,
+                    Descripcion = x.Descripcion,
+                    Eliminado = x.Eliminado
                 }).ToList();
         }
 
-        public IEnumerable<EmpresaDto> GetByFilter()
+        public IEnumerable<EmpresaDto> GetByFilter(string query)
         {
-            throw new NotImplementedException();
+            return _empresaRepository.GetByFilter(x=> x.Descripcion.Contains(query) || x.Nombre.Contains(query))
+                .Select(x => new EmpresaDto
+                {
+                    Id = x.Id,
+                    Nombre = x.Nombre,
+                    Descripcion = x.Descripcion,
+                    Eliminado = x.Eliminado
+                }).ToList();
         }
 
         public IEnumerable<EmpresaDto> GetById(long id)

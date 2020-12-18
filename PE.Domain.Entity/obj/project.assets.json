@@ -5748,11 +5748,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
       "projectName": "PE.Domain.Entity",
-      "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
+      "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
       "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Domain.Entity\\obj\\",
+      "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5773,8 +5773,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-              "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+            "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+              "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
             }
           }
         }

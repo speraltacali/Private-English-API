@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {}
+    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
         "projectName": "PE.Application.StringConnection",
-        "projectPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\source\\repos\\Private-English-API\\PE.Application.StringConnection\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
