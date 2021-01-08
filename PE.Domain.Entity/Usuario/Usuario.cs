@@ -14,5 +14,15 @@ namespace PE.Domain.Entity.Usuario
         public bool Estado { get; set; }
 
         public bool Eliminado { get; set; }
+
+        public long PersonaId { get; set; }
+
+        public PE.Domain.Base.Tipo.Cargo Cargo { get; set; }
+
+        //*****************************************************//
+
+        public virtual Persona.Persona  Persona { get; set; }
     }
+
+
 }

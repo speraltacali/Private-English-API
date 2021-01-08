@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PE.Domain.Entity.Alumno
 {
-    public class Alumno : EntityBase
+    public class Alumno : PE.Domain.Entity.Persona.Persona
     {
         public DateTime FechaInscripcion { get; set; }
 

@@ -1076,6 +1076,7 @@
       },
       "PE.IService/1.0.0": {
         "dependencies": {
+          "PE.Domain.Base": "1.0.0",
           "PE.Service.Base": "1.0.0"
         },
         "runtime": {

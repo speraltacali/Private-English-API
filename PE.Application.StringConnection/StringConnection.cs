@@ -8,7 +8,7 @@ namespace PE.Application.StringConnection
     {
         public static string DataBase = "PrivateEnglish";
 
-        public static string Server = "DESKTOP-U9RKUKA\\SANTIDEVSQL";
+        public static string Server = "DESKTOP-NK0OJF1";
 
         public static string User = "sa";
 

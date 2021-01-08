@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj": {}
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
         "projectName": "PE.Application.StringConnection",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,7 +31,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -58,21 +57,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
         "projectName": "PE.Domain.Base",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,7 +88,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -100,7 +99,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -138,21 +136,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
         "projectName": "PE.Domain.Entity",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,10 +167,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
               }
             }
           }
@@ -184,7 +182,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -222,21 +219,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj",
         "projectName": "PE.Domain.Repository",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Repository\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,19 +250,18 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj"
               }
             }
           }
@@ -277,7 +274,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -311,21 +307,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
         "projectName": "PE.Infrastructure.Context",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Context\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -341,13 +338,12 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
               }
             }
           }
@@ -360,7 +356,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -398,21 +393,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj",
         "projectName": "PE.Infrastructure.Repository",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Repository\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -428,16 +424,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj"
               }
             }
           }
@@ -450,7 +445,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -484,21 +478,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj",
         "projectName": "PE.Repository.Base",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,10 +509,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
               }
             }
           }
@@ -530,7 +524,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -564,21 +557,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj": {
+    "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj",
         "projectName": "PE.Repository",
-        "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\PE.Repository.csproj",
+        "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository\\obj\\",
+        "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -594,16 +588,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj"
               },
-              "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj": {
-                "projectPath": "C:\\Users\\santi\\Source\\Repos\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj"
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository.Base\\PE.Repository.Base.csproj"
               }
             }
           }
@@ -616,7 +609,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -650,7 +642,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

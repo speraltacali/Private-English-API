@@ -1,4 +1,6 @@
 ﻿using PE.Domain.Base.EntityBase;
+using PE.Domain.Base.Tipo;
+using PE.Domain.Entity.Usuario;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -19,9 +21,11 @@ namespace PE.Domain.Entity.Persona
 
         public DateTime FechaNacimiento { get; set; }
 
+        public Sexo Sexo { get; set; }
+
         public string EMail { get; set; }
 
-        public byte[] Foto { get; set; }
 
+        public virtual IEnumerable<Usuario.Usuario> Usuario { get; set; }
     }
 }

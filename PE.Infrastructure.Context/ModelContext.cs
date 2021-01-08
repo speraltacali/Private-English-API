@@ -1,6 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using PE.Application.StringConnection;
+using PE.Domain.Entity.Empleado;
+using PE.Domain.Entity.Empresa;
+using PE.Domain.Entity.Persona;
 using PE.Domain.Entity.Usuario;
 using System;
 using System.Collections.Generic;
@@ -37,6 +40,11 @@ namespace PE.Infrastructure.Context
 
         DbSet<Usuario> Usuario { get; set; }
 
+        DbSet<Persona> Persona { get; set; }
+
+        DbSet<Empresa> Empresa { get; set; }
+
+        DbSet<Empleado> Empleado { get; set; }
 
 
     }

@@ -22,3 +22,17 @@ C:\Users\santi\Source\Repos\Private-English-API\PE.IService\obj\Debug\netcoreapp
 C:\Users\santi\Source\Repos\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csproj.CopyComplete
 C:\Users\santi\Source\Repos\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.dll
 C:\Users\santi\Source\Repos\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.pdb
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.IService.deps.json
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.IService.dll
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.IService.pdb
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.Service.Base.dll
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.Service.Base.pdb
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csprojAssemblyReference.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csproj.CoreCompileInputs.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.AssemblyInfoInputs.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.AssemblyInfo.cs
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.csproj.CopyComplete
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.dll
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\obj\Debug\netcoreapp3.1\PE.IService.pdb
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.Domain.Base.dll
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.IService\bin\Debug\netcoreapp3.1\PE.Domain.Base.pdb
