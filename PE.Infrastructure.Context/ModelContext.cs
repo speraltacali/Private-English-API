@@ -5,9 +5,6 @@ using PE.Domain.Entity.Empleado;
 using PE.Domain.Entity.Empresa;
 using PE.Domain.Entity.Persona;
 using PE.Domain.Entity.Usuario;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using static PE.Application.StringConnection.StringConnection;
 
 namespace PE.Infrastructure.Context

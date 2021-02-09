@@ -10,7 +10,7 @@ using PE.Infrastructure.Context;
 namespace PE.Infrastructure.Context.Migrations
 {
     [DbContext(typeof(ModelContext))]
-    [Migration("20210108044635_Prueba01")]
+    [Migration("20210108045653_Prueba01")]
     partial class Prueba01
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -1,12 +1,13 @@
 ﻿using PE.Domain.Base.EntityBase;
 using PE.Domain.Entity.Perfil;
+using PE.Domain.Entity.Persona;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace PE.Domain.Entity.Empleado
 {
-    public class Empleado : PE.Domain.Entity.Persona.Persona
+    public class Empleado : EntityBase
     {
         public string Legajo { get; set; }
 
@@ -14,6 +15,10 @@ namespace PE.Domain.Entity.Empleado
 
         public DateTime FehcaBaja { get; set; }
 
+        public long PersonaId { get; set; }
+
         //public virtual IEnumerable<PerfilEmpleado> PerfilEmpleado { get; set; }
+
+        public virtual Persona.Persona Persona { get; set; }
     }
 }
