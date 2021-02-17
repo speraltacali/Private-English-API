@@ -1,4 +1,6 @@
 ﻿using PE.IService.Usuario.Dto;
+using PE.Model.Request;
+using PE.Model.Response;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,8 +20,10 @@ namespace PE.IService.Usuario
 
         IEnumerable<UsuarioDto> GetAll();
 
-        IEnumerable<UsuarioDto> GetByFilter();
+        IEnumerable<UsuarioDto> GetByFilter(string query);
 
-        IEnumerable<UsuarioDto> GetById(long id);
+        UsuarioDto GetById(long id);
+
+        UserResponse Auth(AuthRequest model); 
     }
 }

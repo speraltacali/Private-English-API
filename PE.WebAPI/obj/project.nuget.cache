@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LgJPOPt4rQ8jPCy8dg+m4QVv2jwM8K/t5fYmVzsGTmMCN4hu5ioGO3v6sKrOC+SwaaBSI12X17YX2AoUqZtIUg==",
+  "dgSpecHash": "tIroPjKw2xAfFMt0JlU0vSK10cP20wsEWrBjpGrwfo5uCOk5jwKDOQf8BjmeZXrvY5GrzcL58QGfQyuJ+SnKIQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

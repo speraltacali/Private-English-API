@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PE.IService.Persona;
@@ -12,6 +13,7 @@ namespace PE.WebAPI.Controllers.Persona
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PersonaController : ControllerBase
     {
         private readonly IPersonaService _personaService = new PersonaService();

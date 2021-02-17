@@ -1,10 +1,18 @@
-﻿using PE.Domain.Repository.Usuario;
+﻿using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using PE.Domain.Repository.Usuario;
 using PE.Infrastructure.Repository.Usuario;
 using PE.IService.Usuario;
 using PE.IService.Usuario.Dto;
+using PE.Model.Common;
+using PE.Model.Request;
+using PE.Model.Response;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
+using System.Security.Claims;
 using System.Text;
 
 namespace PE.Service.Usuario
@@ -13,6 +21,13 @@ namespace PE.Service.Usuario
     {
 
         private readonly IUsuarioRepository _usuarioRepository = new UsuarioRepository();
+        private readonly AppSettings _appSettings;
+
+        public UsuarioService(IOptions<AppSettings> appSettings)
+        {
+            _appSettings = appSettings.Value;
+        }
+        
 
         public UsuarioDto Add(UsuarioDto dto)
         {
@@ -86,14 +101,94 @@ namespace PE.Service.Usuario
                 });
         }
 
-        public IEnumerable<UsuarioDto> GetByFilter()
+        public IEnumerable<UsuarioDto> GetByFilter(string query)
         {
-            throw new NotImplementedException();
+            return _usuarioRepository.GetByFilter(x => x.User.Contains(query) ||
+                                                x.Persona.Dni.Contains(query))
+                .Select(x => new UsuarioDto
+                {
+                    Id = x.Id,
+                    User = x.User,
+                    Password = x.Password,
+                    Estado = x.Estado,
+                    Eliminado = x.Eliminado
+                });
         }
 
-        public IEnumerable<UsuarioDto> GetById(long id)
+        public UsuarioDto GetById(long id)
         {
-            throw new NotImplementedException();
+            var Usuario = _usuarioRepository.GetById(id);
+
+            if (Usuario == null)
+                return null;
+
+            return new UsuarioDto
+            {
+                Id = Usuario.Id,
+                User = Usuario.User,
+                Password = Usuario.Password,
+                Estado = Usuario.Estado,
+                Eliminado = Usuario.Eliminado
+            };
+
+        }
+
+        public UsuarioDto ValidarUsuario(string user , string pass)
+        {
+            var Usuario = _usuarioRepository.GetAll().FirstOrDefault(x => x.User == user &&
+                            x.Password == pass);
+
+            if (Usuario == null) return null;
+
+            return new UsuarioDto
+            {
+                Id = Usuario.Id,
+                User = Usuario.User,
+                Password = Usuario.Password,
+                Estado = Usuario.Estado,
+                Eliminado = Usuario.Eliminado
+            };
+        }
+
+        public UserResponse Auth(AuthRequest model)
+        {
+            UserResponse userResponse = new UserResponse();
+
+            var usuario = ValidarUsuario(model.Usuario, model.Password);
+
+            if (usuario == null) return null;
+
+            userResponse.Usuario = usuario.User;
+            userResponse.Token = GetToken(usuario);
+    
+            return userResponse;
+
+        }
+
+        
+        private string GetToken(UsuarioDto user)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+
+            var llave = Encoding.ASCII.GetBytes(_appSettings.Secreto);
+            var tokenDescriptor = new SecurityTokenDescriptor()
+            {
+                Subject = new ClaimsIdentity(
+                    new Claim[]
+                    {
+                        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+                    }),
+                Expires = DateTime.UtcNow.AddDays(60),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(llave), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
+
+        public string Encriptar(string password)
+        {
+            return null;
         }
 
 

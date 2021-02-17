@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2550,17 +2565,24 @@
       "PE.Application.StringConnection/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10"
+        },
         "compile": {
           "bin/placeholder/PE.Application.StringConnection.dll": {}
         },
         "runtime": {
           "bin/placeholder/PE.Application.StringConnection.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Domain.Base/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9"
         },
@@ -2569,12 +2591,16 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Base.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Domain.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "PE.Domain.Base": "1.0.0"
@@ -2584,12 +2610,16 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Entity.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Domain.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "PE.Domain.Base": "1.0.0",
           "PE.Domain.Entity": "1.0.0",
@@ -2601,12 +2631,16 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Infrastructure.Context/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "PE.Application.StringConnection": "1.0.0",
@@ -2617,12 +2651,16 @@
         },
         "runtime": {
           "bin/placeholder/PE.Infrastructure.Context.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Infrastructure.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "PE.Domain.Entity": "1.0.0",
           "PE.Domain.Repository": "1.0.0",
@@ -2633,13 +2671,18 @@
         },
         "runtime": {
           "bin/placeholder/PE.Infrastructure.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.IService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "PE.Domain.Base": "1.0.0",
+          "PE.Model": "1.0.0",
           "PE.Service.Base": "1.0.0"
         },
         "compile": {
@@ -2647,12 +2690,32 @@
         },
         "runtime": {
           "bin/placeholder/PE.IService.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "PE.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10"
+        },
+        "compile": {
+          "bin/placeholder/PE.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PE.Model.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "PE.Domain.Base": "1.0.0",
           "PE.Infrastructure.Context": "1.0.0",
@@ -2663,12 +2726,16 @@
         },
         "runtime": {
           "bin/placeholder/PE.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Repository.Base/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
           "PE.Domain.Base": "1.0.0"
         },
@@ -2677,12 +2744,16 @@
         },
         "runtime": {
           "bin/placeholder/PE.Repository.Base.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "PE.Domain.Repository": "1.0.0",
           "PE.IService": "1.0.0",
           "PE.Infrastructure.Repository": "1.0.0"
@@ -2692,21 +2763,45 @@
         },
         "runtime": {
           "bin/placeholder/PE.Service.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Service.Base/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10"
+        },
         "compile": {
           "bin/placeholder/PE.Service.Base.dll": {}
         },
         "runtime": {
           "bin/placeholder/PE.Service.Base.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+      "sha512": "0FwXX6sTTXBq+ZajtT9VSNNFfmzsFL7Jiy4Qj4qT5qBbUPry26V2rh8QMWn52J2+81q9u7Bm0YKfsClu22VTMA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -8555,6 +8650,11 @@
       "path": "../PE.IService/PE.IService.csproj",
       "msbuildProject": "../PE.IService/PE.IService.csproj"
     },
+    "PE.Model/1.0.0": {
+      "type": "project",
+      "path": "../PE.Model/PE.Model.csproj",
+      "msbuildProject": "../PE.Model/PE.Model.csproj"
+    },
     "PE.Repository/1.0.0": {
       "type": "project",
       "path": "../PE.Repository/PE.Repository.csproj",
@@ -8578,6 +8678,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.3",
       "PE.IService >= 1.0.0",
       "PE.Service >= 1.0.0"
@@ -8634,6 +8735,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[3.1.10, )"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.3, )"

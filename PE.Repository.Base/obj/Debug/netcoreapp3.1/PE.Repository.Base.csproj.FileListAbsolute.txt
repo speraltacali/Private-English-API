@@ -21,10 +21,10 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\bin\Debug\netcoreapp3.1\PE.Domain.Base.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csprojAssemblyReference.cache
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csproj.CoreCompileInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.AssemblyInfo.cs
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csproj.CopyComplete
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.genruntimeconfig.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Repository.Base\obj\Debug\netcoreapp3.1\PE.Repository.Base.csproj.CoreCompileInputs.cache
