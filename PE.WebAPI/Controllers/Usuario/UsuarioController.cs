@@ -30,6 +30,15 @@ namespace PE.WebAPI.Controllers.Usuario
             return _usuarioService.GetAll();
         }
 
+        //[HttpGet]
+        //public async Task<IActionResult> GetUsuario()
+        //{
+
+        //    Response respuesta = new Response();
+
+
+        //}
+
 
         [HttpPost("login")]
         public async Task<IActionResult> Autentificar([FromBody] AuthRequest model)

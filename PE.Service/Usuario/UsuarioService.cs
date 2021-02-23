@@ -177,7 +177,7 @@ namespace PE.Service.Usuario
                     new Claim[]
                     {
                         new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString())
+                        new Claim(ClaimTypes.Email, user.User.ToString())
                     }),
                 Expires = DateTime.UtcNow.AddDays(60),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(llave), SecurityAlgorithms.HmacSha256Signature)
