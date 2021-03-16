@@ -629,7 +629,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

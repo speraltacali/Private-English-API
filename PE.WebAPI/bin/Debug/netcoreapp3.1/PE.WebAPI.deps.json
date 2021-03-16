@@ -2296,7 +2296,8 @@
       },
       "PE.Model/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
+          "PE.Domain.Base": "1.0.0"
         },
         "runtime": {
           "PE.Model.dll": {}

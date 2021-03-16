@@ -1,4 +1,5 @@
-﻿using PE.Service.Base.BaseDto;
+﻿using PE.Domain.Base.Tipo;
+using PE.Service.Base.BaseDto;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,6 +13,8 @@ namespace PE.IService.Usuario.Dto
         public string Password { get; set; }
 
         public bool Estado { get; set; }
+
+        public Cargo Cargo { get; set; }
 
         public bool Eliminado { get; set; }
     }

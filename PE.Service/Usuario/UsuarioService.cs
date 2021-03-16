@@ -160,6 +160,7 @@ namespace PE.Service.Usuario
 
             userResponse.Usuario = usuario.User;
             userResponse.Token = GetToken(usuario);
+            userResponse.Cargo = usuario.Cargo;
     
             return userResponse;
 
