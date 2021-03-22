@@ -12,7 +12,7 @@ namespace PE.Service.Persona
     public class PersonaService : IPersonaService
     {
         private readonly IPersonaRepository _personaRepository = new PersonaRepository();
-
+        
         public PersonaDto Add(PersonaDto dto)
         {
             var obj = new PE.Domain.Entity.Persona.Persona()

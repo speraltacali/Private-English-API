@@ -11,6 +11,14 @@ namespace PE.IService.Empresa.Dto
 
         public string Descripcion { get; set; }
 
+        public string Cuit { get; set; }
+
+        public string FechaAlta { get; set; }
+
+        public string Direccion { get; set; }
+
         public bool Eliminado { get; set; }
+
+
     }
 }

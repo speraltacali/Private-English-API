@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PE.IService.Empleado
 {
-    public interface IEmpleadoService
+    public interface IEmpleadoService 
     {
         EmpleadoDto Add(EmpleadoDto dto);
 
