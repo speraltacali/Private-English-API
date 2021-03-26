@@ -35,7 +35,9 @@ namespace PE.Service.Usuario
             {
                 User = dto.User,
                 Password = dto.Password,
-                Estado = dto.Estado
+                Estado = dto.Estado,
+                PersonaId = dto.PersonaId,
+                EmpresaId = dto.EmpresaId
             };
 
             _usuarioRepository.Add(obj);
@@ -61,6 +63,8 @@ namespace PE.Service.Usuario
                 obj.User = dto.User;
                 obj.Password = dto.Password;
                 obj.Estado = dto.Estado;
+                obj.PersonaId = dto.PersonaId;
+                obj.EmpresaId = dto.EmpresaId;
 
                 _usuarioRepository.Update(obj);
                 Save();
@@ -97,7 +101,9 @@ namespace PE.Service.Usuario
                     User = x.User,
                     Password = x.Password,
                     Estado = x.Estado,
-                    Eliminado = x.Eliminado
+                    Eliminado = x.Eliminado,
+                    PersonaId = x.PersonaId,
+                    EmpresaId = x.EmpresaId
                 });
         }
 
@@ -111,7 +117,9 @@ namespace PE.Service.Usuario
                     User = x.User,
                     Password = x.Password,
                     Estado = x.Estado,
-                    Eliminado = x.Eliminado
+                    Eliminado = x.Eliminado,
+                    PersonaId = x.PersonaId,
+                    EmpresaId = x.EmpresaId
                 });
         }
 
@@ -128,7 +136,9 @@ namespace PE.Service.Usuario
                 User = Usuario.User,
                 Password = Usuario.Password,
                 Estado = Usuario.Estado,
-                Eliminado = Usuario.Eliminado
+                Eliminado = Usuario.Eliminado,
+                PersonaId = Usuario.PersonaId,
+                EmpresaId = Usuario.EmpresaId
             };
 
         }
@@ -146,7 +156,10 @@ namespace PE.Service.Usuario
                 User = Usuario.User,
                 Password = Usuario.Password,
                 Estado = Usuario.Estado,
-                Eliminado = Usuario.Eliminado
+                Eliminado = Usuario.Eliminado,
+                PersonaId = Usuario.PersonaId,
+                EmpresaId = Usuario.EmpresaId
+
             };
         }
 

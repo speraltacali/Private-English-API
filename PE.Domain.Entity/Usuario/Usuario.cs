@@ -17,11 +17,15 @@ namespace PE.Domain.Entity.Usuario
 
         public long PersonaId { get; set; }
 
+        public long EmpresaId { get; set; }
+
         public PE.Domain.Base.Tipo.Cargo Cargo { get; set; }
 
         //*****************************************************//
 
         public virtual Persona.Persona  Persona { get; set; }
+
+        public virtual Empresa.Empresa Empresa { get; set; }
     }
 
 

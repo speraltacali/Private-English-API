@@ -14,8 +14,12 @@ namespace PE.IService.Usuario.Dto
 
         public bool Estado { get; set; }
 
-        public Cargo Cargo { get; set; }
-
         public bool Eliminado { get; set; }
+
+        public long PersonaId { get; set; }
+
+        public long EmpresaId { get; set; }
+
+        public Cargo Cargo { get; set; }
     }
 }

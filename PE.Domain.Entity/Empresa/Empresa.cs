@@ -11,6 +11,24 @@ namespace PE.Domain.Entity.Empresa
 
         public string Descripcion { get; set; }
 
+        public string Cuit { get; set; }
+
+        public string FechaAlta { get; set; }
+
+        public string Direccion { get; set; }
+
         public bool Eliminado { get; set; }
+
+
+
+        //****************************************************//
+
+        public virtual IEnumerable<Usuario.Usuario> Usuario { get; set; }
+
+        public virtual IEnumerable<Galeria.Galeria> Galeria { get; set; }
+
+        public virtual IEnumerable<Novedades.Novedades> Novedades { get; set; }
+
+        public virtual IEnumerable<PerfilHome.PerfilHome> PerfilHome { get; set; }
     }
 }

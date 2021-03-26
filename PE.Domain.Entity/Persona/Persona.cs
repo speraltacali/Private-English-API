@@ -25,6 +25,7 @@ namespace PE.Domain.Entity.Persona
 
         public string EMail { get; set; }
 
+        //**********************************************************************//
 
         public virtual IEnumerable<Usuario.Usuario> Usuario { get; set; }
     }
