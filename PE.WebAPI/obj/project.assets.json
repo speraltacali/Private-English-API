@@ -2573,7 +2573,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Application.StringConnection.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Domain.Base/1.0.0": {
         "type": "project",
@@ -2588,7 +2591,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Base.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Domain.Entity/1.0.0": {
         "type": "project",
@@ -2604,7 +2610,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Entity.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Domain.Repository/1.0.0": {
         "type": "project",
@@ -2622,7 +2631,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Infrastructure.Context/1.0.0": {
         "type": "project",
@@ -2639,7 +2651,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Infrastructure.Context.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Infrastructure.Repository/1.0.0": {
         "type": "project",
@@ -2656,7 +2671,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Infrastructure.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.IService/1.0.0": {
         "type": "project",
@@ -2672,7 +2690,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.IService.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Model/1.0.0": {
         "type": "project",
@@ -2686,7 +2707,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Model.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Repository/1.0.0": {
         "type": "project",
@@ -2703,7 +2727,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Repository.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Repository.Base/1.0.0": {
         "type": "project",
@@ -2718,7 +2745,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Repository.Base.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Service/1.0.0": {
         "type": "project",
@@ -2734,7 +2764,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Service.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "PE.Service.Base/1.0.0": {
         "type": "project",
@@ -2747,7 +2780,10 @@
         },
         "runtime": {
           "bin/placeholder/PE.Service.Base.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -8655,11 +8691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
       "projectName": "PE.WebAPI",
-      "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
+      "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
       "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -8680,11 +8716,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {
-              "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj"
+            "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {
+              "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj"
             },
-            "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj": {
-              "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj"
+            "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj": {
+              "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj"
             }
           }
         }

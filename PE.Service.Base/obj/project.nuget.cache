@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cy7Mbjt4trTvtougD9jFajWsAaeThfNI4e6S5IeaWpnGbkIDg4EU5cZeddSfz10r++ZG/u/Dv+Ngx357wTog6w==",
+  "dgSpecHash": "wamvI7Q5PoYnWEztkpAkEHU1LMGciBEfIVQOdKBxXtsi53tPOU7Sf4MzsrHllBmPl9c1RKbyY9JffouG2oPYMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
+  "projectFilePath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joses\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

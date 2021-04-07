@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {}
+    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
+        "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
         "projectName": "PE.Domain.Base",
-        "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
+        "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
         "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\obj\\",
+        "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {
+    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj",
+        "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj",
         "projectName": "PE.IService",
-        "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj",
+        "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj",
         "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\obj\\",
+        "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -118,14 +118,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-                "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
               },
-              "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj": {
-                "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj"
+              "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj": {
+                "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj"
               },
-              "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {
-                "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj"
+              "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {
+                "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj": {
+    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj",
+        "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj",
         "projectName": "PE.Model",
-        "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj",
+        "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Model\\PE.Model.csproj",
         "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Model\\obj\\",
+        "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -194,8 +194,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-                "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
+              "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
+                "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {
+    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
+        "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
         "projectName": "PE.Service.Base",
-        "projectPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
+        "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\PE.Service.Base.csproj",
         "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service.Base\\obj\\",
+        "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Service.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

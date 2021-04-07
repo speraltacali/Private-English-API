@@ -28,6 +28,6 @@ namespace PE.Domain.Entity.Profesor
 
         //**********************************************************************//
 
-        //public virtual IEnumerable<Usuario.Usuario> Usuario { get; set; }
+        public virtual IEnumerable<Usuario.Usuario> Usuario { get; set; }
     }
 }

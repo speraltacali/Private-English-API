@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NvAWHKaw4dFD/faofkee0IGoDHrk6zPc4WRJ5FCoDMCzByuSscnvt5XqyLp3daeFZivis2XVhsiaAwUlgHK7ug==",
+  "dgSpecHash": "eTdMCkG7DCBo9AJ+YuxrLwaoM0U3qwk1gRapgrqEOf6YhEq0hZLGeJVhNJx4ZjKSmnTnDelWjozpWb2YEdn/qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joses\\Source\\Repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joses\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
