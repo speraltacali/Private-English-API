@@ -1,0 +1,65 @@
+[33mcommit ed7eb013811339b51026e92852e5ec5fdb594fe4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: jose sabeckis flores <josesabeckis_pj@hotmail.com.ar>
+Date:   Mon Apr 5 23:59:30 2021 -0300
+
+    implementacion de entidad profesor
+
+[33mcommit 26ebbd60ec0af0b315e1fe68fd4d590ebd779826[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Fri Mar 26 02:33:37 2021 -0300
+
+    Implementando galeria api
+
+[33mcommit 9df1764406552cc73cbbe7cf5315b6ee4753c257[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Mon Mar 22 19:54:30 2021 -0300
+
+    implementando nuevas entidades : galeria , perfilHome , novedades.
+
+[33mcommit b444689a4a3823a6d525e1ac537db90ae3972040[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Mon Mar 15 23:52:17 2021 -0300
+
+    ultimo cambio api token
+
+[33mcommit dee97da11f2bda9d6230353b5197243f08f03bfb[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Tue Feb 23 19:33:15 2021 -0300
+
+    .
+
+[33mcommit 9a2ab0bf0198fdd6b8949cda57354f246869a8eb[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Wed Feb 17 00:26:24 2021 -0300
+
+    Generate Token
+
+[33mcommit 6168bc0859cd26d7f39336060201a851aeae99f7[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Tue Feb 9 00:07:31 2021 -0300
+
+    .
+
+[33mcommit 6c4709eba9d600cdac5bb735a9ed1aacb0b15dc6[m
+Author: Santiago Agustin Peralta Cali <santiagoperaltacali@hotmail.com>
+Date:   Fri Jan 8 01:50:04 2021 -0300
+
+    cambios en prueba.
+
+[33mcommit 22595ff97980610782cb3995a9dd91bd53bdfc11[m
+Author: santiago peralta <santiagoperalta@alu.frt.utn.edu.ar>
+Date:   Fri Dec 18 19:49:17 2020 -0300
+
+    .
+
+[33mcommit 289df5d1a6e33e0ae6558930a9c5c05991df8e09[m
+Author: santiago peralta <santiagoperalta@alu.frt.utn.edu.ar>
+Date:   Mon Dec 14 19:36:18 2020 -0300
+
+    .
+
+[33mcommit de530c7828a5543773709649bf759f96f08d1705[m
+Author: speraltacali <50056170+speraltacali@users.noreply.github.com>
+Date:   Fri Dec 4 02:15:06 2020 -0300
+
+    Initial commit
