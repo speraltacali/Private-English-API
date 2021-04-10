@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "JelYG0XJiIdzVvD9EsD7yM46nLz+lTijlseZfBQ4PEUXOCi1Y/LPhK6kMjXKxe1Tpehv4zBRUa/Tno3JBfcl5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj",
+=======
+  "dgSpecHash": "CA+CTKP6dC/TcjRpfTWpVJivnizBD1j7JYkCwL1IGnAAUuJdgClgbRiRy7GI7uvR7V96VhwIJaihsCWX3VjR2g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj",
+>>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",

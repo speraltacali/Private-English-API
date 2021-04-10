@@ -7,6 +7,7 @@ using PE.Domain.Entity.Galeria;
 using PE.Domain.Entity.Novedades;
 using PE.Domain.Entity.PerfilHome;
 using PE.Domain.Entity.Persona;
+using PE.Domain.Entity.Profesor;
 using PE.Domain.Entity.Usuario;
 using static PE.Application.StringConnection.StringConnection;
 
@@ -48,11 +49,15 @@ namespace PE.Infrastructure.Context
 
         DbSet<Galeria> Galeria { get; set; }
 
+<<<<<<< HEAD
         DbSet<Novedades> Novedades { get; set; }
 
         DbSet<PerfilHome> perfilHome { get; set; }
 
 
+=======
+        DbSet<Profesor> Profesor { get; set; }
+>>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
 
     }
 }

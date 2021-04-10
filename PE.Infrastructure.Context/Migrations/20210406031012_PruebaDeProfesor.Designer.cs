@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PE.Infrastructure.Context;
 
 namespace PE.Infrastructure.Context.Migrations
 {
     [DbContext(typeof(ModelContext))]
-    partial class ModelContextModelSnapshot : ModelSnapshot
+    [Migration("20210406031012_PruebaDeProfesor")]
+    partial class PruebaDeProfesor
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -85,14 +87,10 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Eliminado")
                         .HasColumnType("bit");
 
-<<<<<<< HEAD
-                    b.Property<long>("EmpresaId")
-=======
                     b.Property<int>("EmpresaId")
                         .HasColumnType("int");
 
                     b.Property<long?>("EmpresaId1")
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
                         .HasColumnType("bigint");
 
                     b.Property<bool>("Estado")
@@ -106,11 +104,7 @@ namespace PE.Infrastructure.Context.Migrations
 
                     b.HasKey("Id");
 
-<<<<<<< HEAD
-                    b.HasIndex("EmpresaId");
-=======
                     b.HasIndex("EmpresaId1");
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
 
                     b.ToTable("Galeria");
                 });
@@ -128,14 +122,10 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Eliminado")
                         .HasColumnType("bit");
 
-<<<<<<< HEAD
-                    b.Property<long>("EmpresaId")
-=======
                     b.Property<int>("EmpresaId")
                         .HasColumnType("int");
 
                     b.Property<long?>("EmpresaId1")
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
                         .HasColumnType("bigint");
 
                     b.Property<bool>("Estado")
@@ -155,11 +145,7 @@ namespace PE.Infrastructure.Context.Migrations
 
                     b.HasKey("Id");
 
-<<<<<<< HEAD
-                    b.HasIndex("EmpresaId");
-=======
                     b.HasIndex("EmpresaId1");
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
 
                     b.ToTable("Novedades");
                 });
@@ -183,14 +169,10 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Eliminado")
                         .HasColumnType("bit");
 
-<<<<<<< HEAD
-                    b.Property<long>("EmpresaId")
-=======
                     b.Property<int>("EmpresaId")
                         .HasColumnType("int");
 
                     b.Property<long?>("EmpresaId1")
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
                         .HasColumnType("bigint");
 
                     b.Property<bool>("Estado")
@@ -204,11 +186,7 @@ namespace PE.Infrastructure.Context.Migrations
 
                     b.HasKey("Id");
 
-<<<<<<< HEAD
-                    b.HasIndex("EmpresaId");
-=======
                     b.HasIndex("EmpresaId1");
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
 
                     b.ToTable("PerfilHome");
                 });
@@ -249,45 +227,6 @@ namespace PE.Infrastructure.Context.Migrations
                     b.ToTable("Persona");
                 });
 
-            modelBuilder.Entity("PE.Domain.Entity.Profesor.Profesor", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Apellido")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Cuil")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Dni")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Domicilio")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("EMail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("Eliminado")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTime>("FechaNacimiento")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Sexo")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Profesor");
-                });
-
             modelBuilder.Entity("PE.Domain.Entity.Usuario.Usuario", b =>
                 {
                     b.Property<long>("Id")
@@ -313,9 +252,6 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<long>("PersonaId")
                         .HasColumnType("bigint");
 
-                    b.Property<long?>("ProfesorId")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("User")
                         .HasColumnType("nvarchar(max)");
 
@@ -324,8 +260,6 @@ namespace PE.Infrastructure.Context.Migrations
                     b.HasIndex("EmpresaId");
 
                     b.HasIndex("PersonaId");
-
-                    b.HasIndex("ProfesorId");
 
                     b.ToTable("Usuario");
                 });
@@ -343,39 +277,21 @@ namespace PE.Infrastructure.Context.Migrations
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
                         .WithMany("Galeria")
-<<<<<<< HEAD
-                        .HasForeignKey("EmpresaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-=======
                         .HasForeignKey("EmpresaId1");
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.Novedades.Novedades", b =>
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
                         .WithMany("Novedades")
-<<<<<<< HEAD
-                        .HasForeignKey("EmpresaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-=======
                         .HasForeignKey("EmpresaId1");
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.PerfilHome.PerfilHome", b =>
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
                         .WithMany("PerfilHome")
-<<<<<<< HEAD
-                        .HasForeignKey("EmpresaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-=======
                         .HasForeignKey("EmpresaId1");
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.Usuario.Usuario", b =>
@@ -391,10 +307,6 @@ namespace PE.Infrastructure.Context.Migrations
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("PE.Domain.Entity.Profesor.Profesor", null)
-                        .WithMany("Usuario")
-                        .HasForeignKey("ProfesorId");
                 });
 #pragma warning restore 612, 618
         }
