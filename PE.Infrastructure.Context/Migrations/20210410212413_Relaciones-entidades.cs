@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PE.Infrastructure.Context.Migrations
 {
-    public partial class newentity : Migration
+    public partial class Relacionesentidades : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

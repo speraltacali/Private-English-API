@@ -19,8 +19,8 @@ namespace PE.Service.Galeria
             var obj = new Domain.Entity.Galeria.Galeria
             {
                 Titulo = dto.Titulo,
-                Imagen = dto.Imagen,
-                Estado = dto.Estado,
+                Imagen = null,
+                Estado = false,
                 Eliminado = false,
                 EmpresaId = dto.EmpresaId
             };
@@ -63,7 +63,7 @@ namespace PE.Service.Galeria
 
         public void Save()
         {
-            throw new NotImplementedException();
+            _galeriaService.Save();
         }
 
         public GaleriaDto Update(GaleriaDto dto)

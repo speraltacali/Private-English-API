@@ -10,8 +10,8 @@ using PE.Infrastructure.Context;
 namespace PE.Infrastructure.Context.Migrations
 {
     [DbContext(typeof(ModelContext))]
-    [Migration("20210410003330_new-entity")]
-    partial class newentity
+    [Migration("20210410212413_Relaciones-entidades")]
+    partial class Relacionesentidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

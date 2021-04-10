@@ -10,8 +10,8 @@ using PE.Infrastructure.Context;
 namespace PE.Infrastructure.Context.Migrations
 {
     [DbContext(typeof(ModelContext))]
-    [Migration("20210406031012_PruebaDeProfesor")]
-    partial class PruebaDeProfesor
+    [Migration("20210410224136_Error-Relacion")]
+    partial class ErrorRelacion
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -87,10 +87,7 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Eliminado")
                         .HasColumnType("bit");
 
-                    b.Property<int>("EmpresaId")
-                        .HasColumnType("int");
-
-                    b.Property<long?>("EmpresaId1")
+                    b.Property<long>("EmpresaId")
                         .HasColumnType("bigint");
 
                     b.Property<bool>("Estado")
@@ -104,7 +101,7 @@ namespace PE.Infrastructure.Context.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmpresaId1");
+                    b.HasIndex("EmpresaId");
 
                     b.ToTable("Galeria");
                 });
@@ -122,10 +119,7 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Eliminado")
                         .HasColumnType("bit");
 
-                    b.Property<int>("EmpresaId")
-                        .HasColumnType("int");
-
-                    b.Property<long?>("EmpresaId1")
+                    b.Property<long>("EmpresaId")
                         .HasColumnType("bigint");
 
                     b.Property<bool>("Estado")
@@ -145,7 +139,7 @@ namespace PE.Infrastructure.Context.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmpresaId1");
+                    b.HasIndex("EmpresaId");
 
                     b.ToTable("Novedades");
                 });
@@ -169,10 +163,7 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Eliminado")
                         .HasColumnType("bit");
 
-                    b.Property<int>("EmpresaId")
-                        .HasColumnType("int");
-
-                    b.Property<long?>("EmpresaId1")
+                    b.Property<long>("EmpresaId")
                         .HasColumnType("bigint");
 
                     b.Property<bool>("Estado")
@@ -186,7 +177,7 @@ namespace PE.Infrastructure.Context.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmpresaId1");
+                    b.HasIndex("EmpresaId");
 
                     b.ToTable("PerfilHome");
                 });
@@ -277,21 +268,27 @@ namespace PE.Infrastructure.Context.Migrations
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
                         .WithMany("Galeria")
-                        .HasForeignKey("EmpresaId1");
+                        .HasForeignKey("EmpresaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.Novedades.Novedades", b =>
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
                         .WithMany("Novedades")
-                        .HasForeignKey("EmpresaId1");
+                        .HasForeignKey("EmpresaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.PerfilHome.PerfilHome", b =>
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
                         .WithMany("PerfilHome")
-                        .HasForeignKey("EmpresaId1");
+                        .HasForeignKey("EmpresaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.Usuario.Usuario", b =>

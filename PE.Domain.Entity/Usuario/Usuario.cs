@@ -1,6 +1,7 @@
 ﻿using PE.Domain.Base.EntityBase;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace PE.Domain.Entity.Usuario
@@ -15,8 +16,10 @@ namespace PE.Domain.Entity.Usuario
 
         public bool Eliminado { get; set; }
 
+        [ForeignKey("Persona")]
         public long PersonaId { get; set; }
 
+        [ForeignKey("Empresa")]
         public long EmpresaId { get; set; }
 
         public PE.Domain.Base.Tipo.Cargo Cargo { get; set; }

@@ -50,8 +50,8 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.C
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.AssemblyInfo.cs
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.csproj.CoreCompileInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.csproj.CopyComplete
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.genruntimeconfig.cache
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Infrastructure.Context\obj\Debug\netcoreapp3.1\PE.Infrastructure.Context.csproj.CoreCompileInputs.cache

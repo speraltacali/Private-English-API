@@ -18,7 +18,7 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\bin\
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.AssemblyInfo.cs
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.csproj.CoreCompileInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.genruntimeconfig.cache
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Base\obj\Debug\netcoreapp3.1\PE.Domain.Base.csproj.CoreCompileInputs.cache

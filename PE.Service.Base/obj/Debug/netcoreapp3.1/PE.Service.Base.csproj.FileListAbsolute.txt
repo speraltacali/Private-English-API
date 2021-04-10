@@ -13,6 +13,6 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\bin
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.AssemblyInfo.cs
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.csproj.CoreCompileInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.pdb
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service.Base\obj\Debug\netcoreapp3.1\PE.Service.Base.csproj.CoreCompileInputs.cache
