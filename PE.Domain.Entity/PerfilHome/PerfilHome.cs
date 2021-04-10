@@ -1,6 +1,7 @@
 ﻿using PE.Domain.Base.EntityBase;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace PE.Domain.Entity.PerfilHome
@@ -21,7 +22,8 @@ namespace PE.Domain.Entity.PerfilHome
 
         public bool Eliminado { get; set; }
 
-        public int EmpresaId { get; set; }
+        [ForeignKey("Empresa")]
+        public long EmpresaId { get; set; }
 
         //***********************************************************//
 

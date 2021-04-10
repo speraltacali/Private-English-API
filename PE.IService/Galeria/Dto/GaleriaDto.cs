@@ -15,7 +15,7 @@ namespace PE.IService.Galeria.Dto
 
         public bool Eliminado { get; set; }
 
-        public int EmpresaId { get; set; }
+        public long EmpresaId { get; set; }
 
     }
 }

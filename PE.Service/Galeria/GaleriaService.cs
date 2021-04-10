@@ -63,7 +63,7 @@ namespace PE.Service.Galeria
 
         public void Save()
         {
-            throw new NotImplementedException();
+            _galeriaService.Save();
         }
 
         public GaleriaDto Update(GaleriaDto dto)
