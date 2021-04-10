@@ -4,6 +4,8 @@ using PE.Application.StringConnection;
 using PE.Domain.Entity.Empleado;
 using PE.Domain.Entity.Empresa;
 using PE.Domain.Entity.Galeria;
+using PE.Domain.Entity.Novedades;
+using PE.Domain.Entity.PerfilHome;
 using PE.Domain.Entity.Persona;
 using PE.Domain.Entity.Usuario;
 using static PE.Application.StringConnection.StringConnection;
@@ -45,6 +47,11 @@ namespace PE.Infrastructure.Context
         DbSet<Empleado> Empleado { get; set; }
 
         DbSet<Galeria> Galeria { get; set; }
+
+        DbSet<Novedades> Novedades { get; set; }
+
+        DbSet<PerfilHome> perfilHome { get; set; }
+
 
 
     }

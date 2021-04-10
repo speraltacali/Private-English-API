@@ -2,6 +2,7 @@
 using PE.Domain.Entity.Empresa;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace PE.Domain.Entity.Galeria
@@ -16,7 +17,8 @@ namespace PE.Domain.Entity.Galeria
 
         public bool Eliminado { get; set; }
 
-        public int EmpresaId { get; set; }
+        [ForeignKey("Empresa")]
+        public long EmpresaId { get; set; }
 
         //***********************************************************//
 

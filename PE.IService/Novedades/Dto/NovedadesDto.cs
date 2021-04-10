@@ -21,6 +21,6 @@ namespace PE.IService.Novedades.Dto
 
         public bool Eliminado { get; set; }
 
-        public int EmpresaId { get; set; }
+        public long EmpresaId { get; set; }
     }
 }

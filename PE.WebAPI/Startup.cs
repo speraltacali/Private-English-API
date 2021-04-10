@@ -44,7 +44,7 @@ namespace PE.WebAPI
                 });
             });
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
 
             // Secrets
 
