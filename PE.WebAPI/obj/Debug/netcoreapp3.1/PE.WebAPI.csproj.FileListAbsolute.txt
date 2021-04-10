@@ -164,7 +164,6 @@ C:\Users\santi\Source\Repos\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.
 C:\Users\santi\Source\Repos\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.genruntimeconfig.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\PE.WebAPI.exe
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\PE.WebAPI.deps.json
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\PE.WebAPI.runtimeconfig.json
@@ -319,3 +318,4 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\PE.WebAPI.styles.css
