@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "SXcnK6hWFsZKm7/bavbxpKKACiKpP0r3lTEALfvnY5UzYpSxZzwiDeCR9cM6OPKLLUUUL4WqE+7TfNXLzJeyrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj",
-=======
-  "dgSpecHash": "rNkgPtnM9/Gilvc/5YyFTB1tGRaJHD3ZCJoylzRiM7L5MXMl1mK4Tfhrx1FHmxkZOSDyXKPFqRWjIbUKkyCaKg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Repository\\PE.Repository.csproj",
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.0\\microsoft.aspnetcore.jsonpatch.3.1.0.nupkg.sha512",
@@ -111,5 +105,12 @@
     "C:\\Users\\santi\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Repository\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

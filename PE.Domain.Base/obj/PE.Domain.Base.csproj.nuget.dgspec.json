@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
         "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\obj\\",
-=======
-    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
-        "projectName": "PE.Domain.Base",
-        "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\PE.Domain.Base.csproj",
-        "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Base\\obj\\",
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1453,10 +1453,7 @@
         },
         "runtime": {
           "bin/placeholder/PE.Application.StringConnection.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "PE.Domain.Base/1.0.0": {
         "type": "project",
@@ -1472,10 +1469,7 @@
         },
         "runtime": {
           "bin/placeholder/PE.Domain.Base.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "PE.Domain.Entity/1.0.0": {
         "type": "project",
@@ -5531,19 +5525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
       "projectName": "PE.Infrastructure.Context",
       "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
       "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
-      "projectName": "PE.Infrastructure.Context",
-      "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\PE.Infrastructure.Context.csproj",
-      "packagesPath": "C:\\Users\\joses\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\obj\\",
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5566,19 +5552,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
               "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj"
             },
             "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
               "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
-=======
-            "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj": {
-              "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj"
-            },
-            "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj": {
-              "projectPath": "C:\\Users\\joses\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Entity\\PE.Domain.Entity.csproj"
->>>>>>> a3090da91d3f72234dd34ed011ffbbebb2723f70
             }
           }
         }
@@ -5640,5 +5618,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Context\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
