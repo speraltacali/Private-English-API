@@ -47,5 +47,7 @@ namespace PE.Infrastructure.Context
         DbSet<Galeria> Galeria { get; set; }
 
 
+
+
     }
 }
