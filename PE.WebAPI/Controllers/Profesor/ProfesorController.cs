@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PE.IService.Persona;
 using PE.IService.Profesor;
+using PE.Service.Persona;
 using PE.Service.Profesor;
 
 namespace PE.WebAPI.Controllers.Profesor
@@ -13,7 +15,15 @@ namespace PE.WebAPI.Controllers.Profesor
     [ApiController]
     public class ProfesorController : ControllerBase
     {
-        private readonly ProfesorService _profesorService = new ProfesorService();
+        private readonly IProfesorService _profesorService;
+        private readonly IPersonaService _personaService;
+
+        public ProfesorController(IProfesorService profesorService , IPersonaService personaService)
+        {
+            _personaService = personaService;
+            _profesorService = profesorService;
+        }
+
 
         [HttpGet]
         public IEnumerable<ProfesorDto> Get()

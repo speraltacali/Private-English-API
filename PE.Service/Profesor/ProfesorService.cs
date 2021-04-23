@@ -6,7 +6,7 @@ using PE.IService.Profesor;
 
 namespace PE.Service.Profesor
 {
-    public class ProfesorService : IProfesorServicio
+    public class ProfesorService : IProfesorService
     {
         private readonly IProfesorRepository _profesorRepository = new ProfesorRepository();
 

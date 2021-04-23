@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PE.IService.Profesor
 {
-    public interface IProfesorServicio
+    public interface IProfesorService
     {
         ProfesorDto Add(ProfesorDto dto);
 

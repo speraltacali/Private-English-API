@@ -14,9 +14,13 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using PE.IService.Galeria;
+using PE.IService.Persona;
+using PE.IService.Profesor;
 using PE.IService.Usuario;
 using PE.Model.Common;
 using PE.Service.Galeria;
+using PE.Service.Persona;
+using PE.Service.Profesor;
 using PE.Service.Usuario;
 
 namespace PE.WebAPI
@@ -76,6 +80,8 @@ namespace PE.WebAPI
 
             services.AddScoped<IUsuarioService, UsuarioService>();
             services.AddScoped<IGaleriaService, GaleriaService>();
+            services.AddScoped<IPersonaService, PersonaService>();
+            services.AddScoped<IProfesorService, ProfesorService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
