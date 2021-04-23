@@ -36,7 +36,6 @@ namespace PE.Service.Usuario
                 User = dto.User,
                 Password = dto.Password,
                 Estado = dto.Estado,
-                PersonaId = dto.PersonaId,
                 EmpresaId = dto.EmpresaId
             };
 
@@ -63,7 +62,6 @@ namespace PE.Service.Usuario
                 obj.User = dto.User;
                 obj.Password = dto.Password;
                 obj.Estado = dto.Estado;
-                obj.PersonaId = dto.PersonaId;
                 obj.EmpresaId = dto.EmpresaId;
 
                 _usuarioRepository.Update(obj);
@@ -102,15 +100,13 @@ namespace PE.Service.Usuario
                     Password = x.Password,
                     Estado = x.Estado,
                     Eliminado = x.Eliminado,
-                    PersonaId = x.PersonaId,
                     EmpresaId = x.EmpresaId
                 });
         }
 
         public IEnumerable<UsuarioDto> GetByFilter(string query)
         {
-            return _usuarioRepository.GetByFilter(x => x.User.Contains(query) ||
-                                                x.Persona.Dni.Contains(query))
+            return _usuarioRepository.GetByFilter(x => x.User.Contains(query))
                 .Select(x => new UsuarioDto
                 {
                     Id = x.Id,
@@ -118,7 +114,7 @@ namespace PE.Service.Usuario
                     Password = x.Password,
                     Estado = x.Estado,
                     Eliminado = x.Eliminado,
-                    PersonaId = x.PersonaId,
+
                     EmpresaId = x.EmpresaId
                 });
         }
@@ -137,7 +133,6 @@ namespace PE.Service.Usuario
                 Password = Usuario.Password,
                 Estado = Usuario.Estado,
                 Eliminado = Usuario.Eliminado,
-                PersonaId = Usuario.PersonaId,
                 EmpresaId = Usuario.EmpresaId
             };
 
@@ -157,7 +152,6 @@ namespace PE.Service.Usuario
                 Password = Usuario.Password,
                 Estado = Usuario.Estado,
                 Eliminado = Usuario.Eliminado,
-                PersonaId = Usuario.PersonaId,
                 EmpresaId = Usuario.EmpresaId
 
             };

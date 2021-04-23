@@ -14,14 +14,6 @@ namespace PE.Service.Profesor
         {
             var obj = new Domain.Entity.Profesor.Profesor
             {
-                Nombre = dto.Nombre,
-                Apellido = dto.Apellido,
-                Cuil = dto.Cuil,
-                Dni = dto.Dni,
-                Domicilio = dto.Domicilio,
-                EMail = dto.EMail,
-                FechaNacimiento = dto.FechaNacimiento,
-                Sexo = dto.Sexo,
 
             };
 
@@ -51,34 +43,16 @@ namespace PE.Service.Profesor
             return _profesorRepository.GetAll()
                 .Select(x => new ProfesorDto
                 {
-                    Id = x.Id,
-                    Nombre = x.Nombre,
-                    Apellido = x.Apellido,
-                    Cuil = x.Cuil,
-                    Dni = x.Dni,
-                    Domicilio = x.Domicilio,
-                    EMail = x.EMail,
-                    FechaNacimiento = x.FechaNacimiento,
-                    Sexo = x.Sexo
 
                 });
         }
 
         public IEnumerable<ProfesorDto> GetByFilter(string query)
         {
-            return _profesorRepository.GetByFilter(x => x.Apellido.Contains(query) ||
-                                                x.Dni.Contains(query))
+            return _profesorRepository.GetAll()
+
                 .Select(x => new ProfesorDto
                 {
-                    Id = x.Id,
-                    Nombre = x.Nombre,
-                    Apellido = x.Apellido,
-                    Cuil = x.Cuil,
-                    Dni = x.Dni,
-                    Domicilio = x.Domicilio,
-                    EMail = x.EMail,
-                    FechaNacimiento = x.FechaNacimiento,
-                    Sexo = x.Sexo
 
                 });
         }
@@ -92,15 +66,6 @@ namespace PE.Service.Profesor
 
             return new ProfesorDto
             {
-                Id = profesor.Id,
-                Nombre = profesor.Nombre,
-                Apellido = profesor.Apellido,
-                Cuil = profesor.Cuil,
-                Dni = profesor.Dni,
-                Domicilio = profesor.Domicilio,
-                EMail = profesor.EMail,
-                FechaNacimiento = profesor.FechaNacimiento,
-                Sexo = profesor.Sexo
 
             };
         }
@@ -117,14 +82,6 @@ namespace PE.Service.Profesor
             if (obj != null)
             {
 
-                obj.Nombre = dto.Nombre;
-                obj.Apellido = dto.Apellido;
-                obj.Cuil = dto.Cuil;
-                obj.Dni = dto.Dni;
-                obj.Domicilio = dto.Domicilio;
-                obj.EMail = dto.EMail;
-                obj.FechaNacimiento = dto.FechaNacimiento;
-                obj.Sexo = dto.Sexo;
 
                 _profesorRepository.Update(obj);
                 Save();

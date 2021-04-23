@@ -27,6 +27,7 @@ namespace PE.Domain.Entity.Persona
 
         //**********************************************************************//
 
-        public virtual IEnumerable<Usuario.Usuario> Usuario { get; set; }
+        public virtual IEnumerable<Usuario.Usuario> Usuarios { get; set; }
+
     }
 }

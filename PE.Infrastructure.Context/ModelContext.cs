@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using PE.Application.StringConnection;
+using PE.Domain.Entity.Alumno;
 using PE.Domain.Entity.Empleado;
 using PE.Domain.Entity.Empresa;
 using PE.Domain.Entity.Galeria;
@@ -48,6 +49,9 @@ namespace PE.Infrastructure.Context
         DbSet<Galeria> Galeria { get; set; }
 
         DbSet<Profesor> Profesor { get; set; }
+
+        DbSet<Alumno> Alumno { get; set; }
+
 
 
     }

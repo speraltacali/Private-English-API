@@ -19,6 +19,32 @@ namespace PE.Infrastructure.Context.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("PE.Domain.Entity.Alumno.Alumno", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Eliminado")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("FechaInscripcion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Legajo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("PersonaId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PersonaId");
+
+                    b.ToTable("Alumno");
+                });
+
             modelBuilder.Entity("PE.Domain.Entity.Empleado.Empleado", b =>
                 {
                     b.Property<long>("Id")
@@ -216,6 +242,29 @@ namespace PE.Infrastructure.Context.Migrations
                     b.ToTable("Persona");
                 });
 
+            modelBuilder.Entity("PE.Domain.Entity.Profesor.Profesor", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<bool>("Eliminado")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Legajo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("PersonaId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PersonaId");
+
+                    b.ToTable("Profesor");
+                });
+
             modelBuilder.Entity("PE.Domain.Entity.Usuario.Usuario", b =>
                 {
                     b.Property<long>("Id")
@@ -251,6 +300,15 @@ namespace PE.Infrastructure.Context.Migrations
                     b.HasIndex("PersonaId");
 
                     b.ToTable("Usuario");
+                });
+
+            modelBuilder.Entity("PE.Domain.Entity.Alumno.Alumno", b =>
+                {
+                    b.HasOne("PE.Domain.Entity.Persona.Persona", "Persona")
+                        .WithMany()
+                        .HasForeignKey("PersonaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PE.Domain.Entity.Empleado.Empleado", b =>
@@ -289,6 +347,15 @@ namespace PE.Infrastructure.Context.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("PE.Domain.Entity.Profesor.Profesor", b =>
+                {
+                    b.HasOne("PE.Domain.Entity.Persona.Persona", "Persona")
+                        .WithMany()
+                        .HasForeignKey("PersonaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("PE.Domain.Entity.Usuario.Usuario", b =>
                 {
                     b.HasOne("PE.Domain.Entity.Empresa.Empresa", "Empresa")
@@ -298,7 +365,7 @@ namespace PE.Infrastructure.Context.Migrations
                         .IsRequired();
 
                     b.HasOne("PE.Domain.Entity.Persona.Persona", "Persona")
-                        .WithMany("Usuario")
+                        .WithMany("Usuarios")
                         .HasForeignKey("PersonaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
