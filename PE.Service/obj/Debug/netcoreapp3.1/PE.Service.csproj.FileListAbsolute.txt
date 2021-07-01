@@ -83,7 +83,6 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\bin\Debu
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\bin\Debug\netcoreapp3.1\PE.Repository.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\bin\Debug\netcoreapp3.1\PE.Repository.Base.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\bin\Debug\netcoreapp3.1\PE.Service.Base.pdb
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.AssemblyInfo.cs
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.csproj.CoreCompileInputs.cache
@@ -122,3 +121,4 @@ C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debu
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.csproj.CopyComplete
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.dll
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.pdb
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Service\obj\Debug\netcoreapp3.1\PE.Service.csproj.AssemblyReference.cache

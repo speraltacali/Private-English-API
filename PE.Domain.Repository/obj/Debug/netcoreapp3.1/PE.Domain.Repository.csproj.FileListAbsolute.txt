@@ -65,7 +65,6 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repositor
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\bin\Debug\netcoreapp3.1\PE.Repository.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\bin\Debug\netcoreapp3.1\PE.Application.StringConnection.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\bin\Debug\netcoreapp3.1\PE.Infrastructure.Context.pdb
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.AssemblyInfo.cs
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.csproj.CoreCompileInputs.cache
@@ -98,3 +97,4 @@ C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repositor
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.dll
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.pdb
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.genruntimeconfig.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Domain.Repository\obj\Debug\netcoreapp3.1\PE.Domain.Repository.csproj.AssemblyReference.cache

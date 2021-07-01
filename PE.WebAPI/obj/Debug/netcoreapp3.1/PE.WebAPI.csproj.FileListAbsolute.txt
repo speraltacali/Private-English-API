@@ -306,7 +306,6 @@ C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\PE.Repository.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\PE.Repository.Base.pdb
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\bin\Debug\netcoreapp3.1\PE.Service.Base.pdb
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.AssemblyInfo.cs
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.csproj.CoreCompileInputs.cache
@@ -476,3 +475,4 @@ C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.dll
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.pdb
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.genruntimeconfig.cache
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.WebAPI\obj\Debug\netcoreapp3.1\PE.WebAPI.csproj.AssemblyReference.cache

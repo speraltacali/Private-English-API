@@ -10,7 +10,6 @@ C:\Users\santi\source\repos\PrivateEnglish\PE.Application.StringConnection\obj\D
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\bin\Debug\netcoreapp3.1\PE.Application.StringConnection.deps.json
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\bin\Debug\netcoreapp3.1\PE.Application.StringConnection.dll
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\bin\Debug\netcoreapp3.1\PE.Application.StringConnection.pdb
-C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.csprojAssemblyReference.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.AssemblyInfoInputs.cache
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.AssemblyInfo.cs
 C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.csproj.CoreCompileInputs.cache
@@ -25,3 +24,4 @@ C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Application.Stri
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.csproj.CoreCompileInputs.cache
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.dll
 C:\Users\joses\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.pdb
+C:\Users\santi\Source\Repos\speraltacali\Private-English-API\PE.Application.StringConnection\obj\Debug\netcoreapp3.1\PE.Application.StringConnection.csproj.AssemblyReference.cache

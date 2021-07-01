@@ -13,7 +13,7 @@ namespace PE.IService.Novedades.Dto
 
         public string Descripcion { get; set; }
 
-        public byte[] Foto { get; set; }
+        public string Foto { get; set; }
 
         public DateTime Fecha { get; set; }
 

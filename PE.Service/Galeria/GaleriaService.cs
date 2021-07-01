@@ -19,9 +19,9 @@ namespace PE.Service.Galeria
             var obj = new Domain.Entity.Galeria.Galeria
             {
                 Titulo = dto.Titulo,
-                Imagen = null,
-                Estado = false,
-                Eliminado = false,
+                Imagen = dto.Imagen,
+                Estado = dto.Estado,
+                Eliminado = dto.Eliminado,
                 EmpresaId = dto.EmpresaId
             };
 

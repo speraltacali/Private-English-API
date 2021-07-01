@@ -14,7 +14,7 @@ namespace PE.Domain.Entity.Novedades
 
         public string Descripcion { get; set; }
 
-        public byte[] Foto { get; set; }
+        public string Foto { get; set; }
 
         public DateTime Fecha { get; set; }
 

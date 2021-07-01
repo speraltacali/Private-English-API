@@ -9,7 +9,7 @@ namespace PE.IService.Galeria.Dto
     {
         public string Titulo { get; set; }
 
-        public byte[] Imagen { get; set; }
+        public string Imagen { get; set; }
 
         public bool Estado { get; set; }
 

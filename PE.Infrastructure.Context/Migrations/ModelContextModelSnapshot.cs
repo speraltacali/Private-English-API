@@ -117,8 +117,8 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Estado")
                         .HasColumnType("bit");
 
-                    b.Property<byte[]>("Imagen")
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("Imagen")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Titulo")
                         .HasColumnType("nvarchar(max)");
@@ -152,8 +152,8 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
-                    b.Property<byte[]>("Foto")
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("Foto")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SubTitulo")
                         .HasColumnType("nvarchar(max)");
@@ -193,8 +193,8 @@ namespace PE.Infrastructure.Context.Migrations
                     b.Property<bool>("Estado")
                         .HasColumnType("bit");
 
-                    b.Property<byte[]>("Foto")
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("Foto")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");

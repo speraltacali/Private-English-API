@@ -16,7 +16,7 @@ namespace PE.Domain.Entity.PerfilHome
 
         public string Descripcion { get; set; }
 
-        public byte[] Foto { get; set; }
+        public string Foto { get; set; }
 
         public bool Estado { get; set; }
 
