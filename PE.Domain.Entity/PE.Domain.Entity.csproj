@@ -22,4 +22,8 @@
     <ProjectReference Include="..\PE.Domain.Base\PE.Domain.Base.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Grado\" />
+  </ItemGroup>
+
 </Project>

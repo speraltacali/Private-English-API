@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U74wiVeMMkZUi2j5EyFg9VlaGqsTgkchfT3vZeBoMxz19OhHkYLMdjT4d3XY34LI9nqUaRQGAvEriwqT5XQpxw==",
+  "dgSpecHash": "jade0eObVhNqwcFQMLJb9Cbn6j/4OMbj7nPLa3slS7SFtx4t86Srs2vHAn1KhWI3WtnP/zPg5uHSXdsOlEpjyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
+  "projectFilePath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Application.StringConnection\\PE.Application.StringConnection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

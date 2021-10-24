@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3QRHSAu3bU8VVgrxURwsf/0KlJ9K+0VI9E++KVSPWQanNXz0sSi7vxXYu431qsjtJxn/rlCftqxidLiaE/5yWQ==",
+  "dgSpecHash": "Cfs0n0omj/y5KXGC3AbxLdh4rI85h5MzVLDwwa55y9+PrNGE7NaMNmL5N+4u2r+ZExDAYllTShoDLe9rYxfxMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.WebAPI\\PE.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
@@ -161,7 +161,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
   ],
   "logs": []
 }

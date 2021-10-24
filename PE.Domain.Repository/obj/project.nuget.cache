@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+WPH2YG6DTFrkSGfjizwMzfTj12+EuBguHI4E3dL/T0Wp1WV2JzKpIhdgj63imJgee/9E6xOPdUkHmk+Xo6MNQ==",
+  "dgSpecHash": "wLPXBThD2ni98VZmoM6YdD2OdQvEkVDqmd/RfeEHGjakzrkxgIc1o2s+5zr5WWA0WqQbl5keUA9YgjIioyExTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj",
+  "projectFilePath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\santi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

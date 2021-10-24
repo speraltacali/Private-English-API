@@ -10,7 +10,7 @@ namespace PE.Domain.Entity.Perfil
     {
         public string Descripcion { get; set; }
 
-        public byte[] Imagen { get; set; }
+        public bool EstaEliminado { get; set; }
 
     }
 }

@@ -5917,11 +5917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj",
+      "projectUniqueName": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj",
       "projectName": "PE.Service",
-      "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj",
+      "projectPath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Service\\PE.Service.csproj",
       "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Service\\obj\\",
+      "outputPath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5945,14 +5945,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj": {
-              "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj"
+            "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj": {
+              "projectPath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Domain.Repository\\PE.Domain.Repository.csproj"
             },
-            "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj": {
-              "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj"
+            "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj": {
+              "projectPath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.Infrastructure.Repository\\PE.Infrastructure.Repository.csproj"
             },
-            "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {
-              "projectPath": "C:\\Users\\santi\\Source\\Repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj"
+            "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj": {
+              "projectPath": "C:\\Users\\santi\\source\\repos\\speraltacali\\Private-English-API\\PE.IService\\PE.IService.csproj"
             }
           }
         }
@@ -5987,7 +5987,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

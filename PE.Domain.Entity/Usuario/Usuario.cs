@@ -22,13 +22,16 @@ namespace PE.Domain.Entity.Usuario
         [ForeignKey("Empresa")]
         public long EmpresaId { get; set; }
 
-        public PE.Domain.Base.Tipo.Cargo Cargo { get; set; }
+        [ForeignKey("Perfil")]
+        public long PerfilId { get; set; }
 
         //*****************************************************//
 
         public virtual Persona.Persona  Persona { get; set; }
 
         public virtual Empresa.Empresa Empresa { get; set; }
+
+        public virtual Perfil.Perfil Perfil { get; set; }
     }
 
 
